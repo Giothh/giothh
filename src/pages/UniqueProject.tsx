@@ -1,10 +1,7 @@
 import Header from "../components/Header";
-import coverImage from '../images/covers/animelon2.png'
 import '../styles/UniqueProject.css'
 import { projectsItem } from '../services/fakeApi'
 import { useParams } from "react-router-dom";
-import { type } from "os";
-import { FigmaLogo } from "phosphor-react";
 
 type UserParams = {
     id?: string | undefined;
