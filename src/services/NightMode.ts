@@ -1,4 +1,3 @@
-import React from "react";
 import { useCookies } from "react-cookie";
 
 export default function SetVariables() {
@@ -55,25 +54,10 @@ export default function SetVariables() {
 			innerImageBlockProjectPage,
 			defaultBoxShadow
 		}
-
 		return newNightMode 
 
-
 	} else {
-		return console.log("something went wrong here")
-		
+		return console.log("something went wrong here")	
 	}
-	// var newNightMode = {
-	// 	iconsColor,
-	// 	fontColor,
-	// 	mainPageBackgroundColor,
-	// 	buttonBackGroundColor,
-	// 	navBarBackGroundColor,
-	// 	userProfilePhotoBoxShadow,
-	// 	innerImageBlockProjectPage,
-	// 	defaultBoxShadow
-	// }
-
-	// console.log(newNightMode)
 
 }
