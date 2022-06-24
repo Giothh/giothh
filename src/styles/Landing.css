@@ -1,0 +1,105 @@
+.landing_page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0px calc(100vw - 90%);
+  
+}
+
+.landing_page-main-div {
+    height: calc(100vh - calc(100vh - 85%));
+    width: calc(100vw - 36%);
+    max-width: calc(100vw - 36%);
+
+    display: flex;
+    flex-direction: row;
+
+    align-self: center;
+  
+    align-items: center;
+
+}
+.landing_page-main-div_left{
+    align-items: center;
+
+    width: calc(100vw - 36% / 2);
+    display: flex;
+    flex-direction: column;
+}
+
+.landing_page-main-div_left-buttons{
+    display: flex;
+    align-items: center;
+    width: 253px;
+    height: calc(253px - 200px);
+    background-color: var(--black-div-2);
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#landing_page-main-div_left-buttons-icons {
+    width: 45px;
+    height: 45px;
+    float: left;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+#landing_page-main-div_left-buttons-p {
+    display: flex;
+    justify-items: center;
+    color: var(--white-font);
+}
+
+.landing_page-main-div_right{
+    align-items: center;
+    /* padding-right: calc(100% - 97%); */
+    width: calc(100vw - 36% / 2);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.landing_page-main-div_right img{
+    max-width: 340px;
+    max-height: 340px;
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+
+    /* box-shadow: var(--box-shadow-user-profile-white); */
+}
+@media only screen and (max-width: 900px) {
+    .landing_page-main-div {
+        flex-direction: column-reverse;
+        justify-content: center;
+    
+    }
+    .landing_page-main-div_right{
+        margin-bottom: 35px;
+    }
+    .landing_page-main-div_right img{
+        width: 45vw;
+        height: 45vw;
+    }
+    .landing_page-main-div_left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .landing_page-main-div_left-buttons{
+        width: auto;
+    }
+    #landing_page-main-div_left-buttons-icons{
+        padding: 10px;
+    }
+
+    #landing_page-main-div_left-buttons-p{
+        display: none;
+    }
+
+
+}
