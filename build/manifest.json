@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "short_name": "Gioth",
   "name": "Gioth Portifolio",
+=======
+  "short_name": "React App",
+  "name": "Create React App Sample",
+>>>>>>> parent of adb6a883 (new config in manifest.json)
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,7 +23,11 @@
       "sizes": "512x512"
     }
   ],
+<<<<<<< HEAD
   "start_url": "index.html",
+=======
+  "start_url": ".",
+>>>>>>> parent of adb6a883 (new config in manifest.json)
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
