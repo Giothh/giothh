@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import SetVariables from './services/NightMode';
 
 import About from './pages/About';
@@ -10,7 +10,7 @@ function RoutesComponent() {
 	let nightModeExt2 :any = SetVariables()
 
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Routes>
 				<Route path='/' element={<Landing iconsColor={nightModeExt2.iconsColor}
 					fontColor={nightModeExt2.fontColor}
@@ -49,7 +49,7 @@ function RoutesComponent() {
 						defaultBoxShadow={nightModeExt2.defaultBoxShadow}/>}
 				/>
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	)
 }
 
