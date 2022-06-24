@@ -1,0 +1,152 @@
+.project_page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.project_page-main-div {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 200px;
+    align-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+/* ------------------- main blocks -------------------- */
+
+.project_page-main-div_span-blocks{
+    width: calc(100vw - 58%);
+    height: calc(100vh - 66%);
+    margin-top: 0%;
+    padding: 5px 5px 10px 5px;
+    border-radius: 5px;
+}
+
+.project_page-main-div_span-blocks_images{
+    height: calc(100vh - calc(100vh - 88%));
+    border-radius: 3px;
+    padding: 5px;
+
+    display: flex;
+    align-items: center ;
+    justify-self: center;
+    overflow: hidden;
+
+    
+}
+
+.project_page-main-div_span-blocks_images_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project_page-main-div_span-blocks_description{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    align-items: center;
+    text-align: left;
+    /* height: calc(100vh - calc(100vh - 9%)); */
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 3px;
+
+    text-decoration: none;
+}
+
+/* [class*="col-"] {
+    width: 100%;
+} */
+
+/* 
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+} */
+
+@media only screen and (max-width: 450px) {
+    /* For desktop: */
+    .project_page-main-div{
+        width: 80%;
+        margin-bottom: 225px;
+    }
+    .project_page-main-div_span-blocks{
+        width: 98%;
+        height: 24vh;
+    }
+}
+
+
+@media only screen and (min-width: 500px) {
+    /* For desktop: */
+    .project_page-main-div{
+        width: 80%;
+        margin-bottom: 225px;
+    }
+    .project_page-main-div_span-blocks{
+        width: 98%;
+        height: 28vh;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    /* For desktop: */
+    .project_page-main-div{
+        width: 70%;
+        margin-bottom: 250px;
+    }
+    .project_page-main-div_span-blocks{
+        width: 95%;
+        height: 34vh;
+    }
+}
+
+@media only screen and (min-width: 830px) {
+    /* For tablet */
+    .project_page-main-div{
+        width: 60%;
+        margin-bottom: 225px;
+
+    }
+    .project_page-main-div_span-blocks{
+        width: 95%;
+        height: 35vh;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    /* For desktop: */
+    .project_page-main-div{
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .project_page-main-div_span-blocks{
+        /* width: calc(100vw - 58%); */
+        width: calc(100vw - 58%);
+        height: calc(100vh - 79%);
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    /* For desktop: */
+    .project_page-main-div{
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    .project_page-main-div_span-blocks{
+        /* width: calc(100vw - 58%); */
+        width: calc(100vw - 58%);
+        height: calc(100vh - 67%);
+    }
+}
