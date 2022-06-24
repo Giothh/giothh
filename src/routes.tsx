@@ -9,22 +9,8 @@ import UniqueProject from './pages/UniqueProject';
 function RoutesComponent() {
 	let nightModeExt2 :any = SetVariables()
 
-	// console.log(nightModeExt3)
-
-	// let nightModeExt2 = {
-	// 	userProfilePhotoBoxShadow : "0px 0px 35px 1px rgba(204, 219, 222, 0.64)",
-	// 	mainPageBackgroundColor : "#2D2D2D",
-	// 	buttonBackGroundColor : "#111111",
-	// 	navBarBackGroundColor : "#111111",
-	// 	iconsColor : "#ffffff",
-	// 	fontColor : "#ffffff",
-	// 	innerImageBlockProjectPage : "#AFAFAF",
-	// 	defaultBoxShadow : "4px 4px 7px 1px rgba(0, 0, 0, 0.55)"
-		
-	// }
-
 	return (
-		<HashRouter>
+		<BrowserRouter>
 			<Routes>
 				<Route path='/' element={<Landing iconsColor={nightModeExt2.iconsColor}
 					fontColor={nightModeExt2.fontColor}
@@ -63,7 +49,7 @@ function RoutesComponent() {
 						defaultBoxShadow={nightModeExt2.defaultBoxShadow}/>}
 				/>
 			</Routes>
-		</HashRouter>
+		</BrowserRouter>
 	)
 }
 
