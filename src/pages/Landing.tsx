@@ -17,8 +17,6 @@ interface Props {
 }
 
 function Landing(props: Props){
-  console.log("Landing")
-
   return(
     <div className="landing_page" style={{backgroundColor: props.mainPageBackgroundColor}}>
       <main className='landing_page-main-div'>

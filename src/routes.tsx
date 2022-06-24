@@ -12,41 +12,41 @@ function RoutesComponent() {
 		<BrowserRouter>
 			<Routes>
 				{/* <Route path='/' element={<Landing />}/> */}
-				<Route path='/' element={<Landing iconsColor={nightModeExt2.iconsColor}
-					fontColor={nightModeExt2.fontColor}
-					mainPageBackgroundColor={nightModeExt2.mainPageBackgroundColor}
-					buttonBackGroundColor={nightModeExt2.buttonBackGroundColor}
-					navBarBackGroundColor={nightModeExt2.navBarBackGroundColor}
-					userProfilePhotoBoxShadow={nightModeExt2.userProfilePhotoBoxShadow}
-					innerImageBlockProjectPage={nightModeExt2.innerImageBlockProjectPage} 
-					defaultBoxShadow={nightModeExt2.defaultBoxShadow} />}
+				<Route path='/' element={<Landing iconsColor={nightModeExt2!.iconsColor}
+					fontColor={nightModeExt2!.fontColor}
+					mainPageBackgroundColor={nightModeExt2!.mainPageBackgroundColor}
+					buttonBackGroundColor={nightModeExt2!.buttonBackGroundColor}
+					navBarBackGroundColor={nightModeExt2!.navBarBackGroundColor}
+					userProfilePhotoBoxShadow={nightModeExt2!.userProfilePhotoBoxShadow}
+					innerImageBlockProjectPage={nightModeExt2!.innerImageBlockProjectPage} 
+					defaultBoxShadow={nightModeExt2!.defaultBoxShadow} />}
 				/>
-				<Route path='/projects' element={<Projects iconsColor={nightModeExt2.iconsColor}
-						fontColor={nightModeExt2.fontColor}
-						mainPageBackgroundColor={nightModeExt2.mainPageBackgroundColor}
-						buttonBackGroundColor={nightModeExt2.buttonBackGroundColor}
-						navBarBackGroundColor={nightModeExt2.navBarBackGroundColor}
-						userProfilePhotoBoxShadow={nightModeExt2.userProfilePhotoBoxShadow}
-						innerImageBlockProjectPage={nightModeExt2.innerImageBlockProjectPage} 
-						defaultBoxShadow={nightModeExt2.defaultBoxShadow}/>}
+				<Route path='/projects' element={<Projects iconsColor={nightModeExt2!.iconsColor}
+						fontColor={nightModeExt2!.fontColor}
+						mainPageBackgroundColor={nightModeExt2!.mainPageBackgroundColor}
+						buttonBackGroundColor={nightModeExt2!.buttonBackGroundColor}
+						navBarBackGroundColor={nightModeExt2!.navBarBackGroundColor}
+						userProfilePhotoBoxShadow={nightModeExt2!.userProfilePhotoBoxShadow}
+						innerImageBlockProjectPage={nightModeExt2!.innerImageBlockProjectPage} 
+						defaultBoxShadow={nightModeExt2!.defaultBoxShadow}/>}
 					/>
-				<Route path='/projects/:id' element={<UniqueProject iconsColor={nightModeExt2.iconsColor}
-						fontColor={nightModeExt2.fontColor}
-						mainPageBackgroundColor={nightModeExt2.mainPageBackgroundColor}
-						buttonBackGroundColor={nightModeExt2.buttonBackGroundColor}
-						navBarBackGroundColor={nightModeExt2.navBarBackGroundColor}
-						userProfilePhotoBoxShadow={nightModeExt2.userProfilePhotoBoxShadow}
-						innerImageBlockProjectPage={nightModeExt2.innerImageBlockProjectPage} 
-						defaultBoxShadow={nightModeExt2.defaultBoxShadow}/>}
+				<Route path='/projects/:id' element={<UniqueProject iconsColor={nightModeExt2!.iconsColor}
+						fontColor={nightModeExt2!.fontColor}
+						mainPageBackgroundColor={nightModeExt2!.mainPageBackgroundColor}
+						buttonBackGroundColor={nightModeExt2!.buttonBackGroundColor}
+						navBarBackGroundColor={nightModeExt2!.navBarBackGroundColor}
+						userProfilePhotoBoxShadow={nightModeExt2!.userProfilePhotoBoxShadow}
+						innerImageBlockProjectPage={nightModeExt2!.innerImageBlockProjectPage} 
+						defaultBoxShadow={nightModeExt2!.defaultBoxShadow}/>}
 					/>
-				<Route path='/about' element={<About iconsColor={nightModeExt2.iconsColor}
-						fontColor={nightModeExt2.fontColor}
-						mainPageBackgroundColor={nightModeExt2.mainPageBackgroundColor}
-						buttonBackGroundColor={nightModeExt2.buttonBackGroundColor}
-						navBarBackGroundColor={nightModeExt2.navBarBackGroundColor}
-						userProfilePhotoBoxShadow={nightModeExt2.userProfilePhotoBoxShadow}
-						innerImageBlockProjectPage={nightModeExt2.innerImageBlockProjectPage} 
-						defaultBoxShadow={nightModeExt2.defaultBoxShadow}/>}
+				<Route path='/about' element={<About iconsColor={nightModeExt2!.iconsColor}
+						fontColor={nightModeExt2!.fontColor}
+						mainPageBackgroundColor={nightModeExt2!.mainPageBackgroundColor}
+						buttonBackGroundColor={nightModeExt2!.buttonBackGroundColor}
+						navBarBackGroundColor={nightModeExt2!.navBarBackGroundColor}
+						userProfilePhotoBoxShadow={nightModeExt2!.userProfilePhotoBoxShadow}
+						innerImageBlockProjectPage={nightModeExt2!.innerImageBlockProjectPage} 
+						defaultBoxShadow={nightModeExt2!.defaultBoxShadow}/>}
 				/>
 			</Routes>
 		</BrowserRouter>

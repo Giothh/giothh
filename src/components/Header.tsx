@@ -24,8 +24,6 @@ export function NightModeButton(props: PropsButton) {
   function ChangeAll() {
     setNightModeConst(!nightModeConst)
     setCookie('night-mode', !nightModeConst)
-
-    console.log(cookies)
   }
   
 	return (
