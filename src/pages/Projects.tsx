@@ -32,8 +32,6 @@ export default function Projects(props: Props){
                 return(
                     <div className="project_page-main-div_span-blocks" key={projectsMap.id}>
                         <Link to={`/projects/${projectsMap.id}`} className="project_page-main-div_span-blocks_images" style={{backgroundColor: props.buttonBackGroundColor, boxShadow : props.defaultBoxShadow }}>
-                            {/* <img className="project_page-main-div_span-blocks_images_image" src={`../images/covers/${projectsMap.images.name}.png`} alt={projectsMap.title} /> */}
-                            {/* <img className="project_page-main-div_span-blocks_images_image" src={require(`../images/covers/${projectsMap.images.name}`).default} alt={projectsMap.title} /> */}
                             <img className="project_page-main-div_span-blocks_images_image" src={newImage} alt={projectsMap.title} />
                         </Link>
                         <Link to={`/projects/${projectsMap.id}`} className="project_page-main-div_span-blocks_description" style={{color: props.fontColor, backgroundColor: props.buttonBackGroundColor, boxShadow : props.defaultBoxShadow}}>

@@ -1,6 +1,6 @@
 {
   "name": "giothh",
-  "homepage": "https://giothh.github.io",
+  "homepage": "https://giothh.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +15,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.5",
+    "gh-pages": "^4.0.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-cookie": "^4.1.1",
@@ -27,6 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "gh-pages -d dist",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
