@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "short_name": "Gioth",
   "name": "Gioth Portifolio",
+=======
+  "short_name": "React App",
+  "name": "Create React App Sample",
+>>>>>>> parent of ba245c7c (Updates)
   "icons": [
     {
       "src": "favicon.ico",
