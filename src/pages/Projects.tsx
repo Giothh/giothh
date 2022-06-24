@@ -1,6 +1,10 @@
 import React from "react";
 import Header from "../components/Header";
 import '../styles/Projects.css'
+<<<<<<< HEAD
+=======
+import coverImage from '../images/covers/animelon.png'
+>>>>>>> parent of ba245c7 (Updates)
 import { Link } from "react-router-dom";
 import { projectsItem } from '../services/fakeApi'
 
