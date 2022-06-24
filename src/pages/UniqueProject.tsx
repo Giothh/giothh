@@ -38,11 +38,7 @@ function UniqueProject(props: Props){
             .map(projectsMap => {
                 return(
                     <div className="unique-project_page-main-div_span-blocks" style={{backgroundColor: props.buttonBackGroundColor, boxShadow : props.defaultBoxShadow}}>
-<<<<<<< HEAD
                         <iframe key={projectsMap.id} className="unique-project_page-main-div_span-blocks_images" src={projectsMap.figma_link} allowFullScreen></iframe>
-=======
-                        <iframe className="unique-project_page-main-div_span-blocks_images" src={projectsMap.figma_link} allowFullScreen></iframe>
->>>>>>> parent of ba245c7c (Updates)
                         {/* <div className="unique-project_page-main-div_span-blocks_images">
                             <img className="unique-project_page-main-div_span-blocks_images_image" src={coverImage} alt={projectsMap.title} />
                             <a target="_blank" 

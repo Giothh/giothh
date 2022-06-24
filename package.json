@@ -15,10 +15,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.5",
-<<<<<<< HEAD
-=======
     "gh-pages": "^4.0.0",
->>>>>>> parent of ba245c7c (Updates)
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-cookie": "^4.1.1",
@@ -32,11 +29,8 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-<<<<<<< HEAD
     "deploy": "gh-pages -d build",
-=======
     "deploy": "gh-pages -b main -d build",
->>>>>>> parent of ba245c7c (Updates)
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

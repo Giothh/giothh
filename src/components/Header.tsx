@@ -1,9 +1,5 @@
 import { Link } from 'react-router-dom';
 import '../styles/components/Header.css';
-<<<<<<< HEAD
-=======
-import SetVariables from '../services/NightMode'
->>>>>>> parent of ba245c7c (Updates)
 import { Sunglasses } from 'phosphor-react';
 import { useState } from 'react';
 import { useCookies } from 'react-cookie';
