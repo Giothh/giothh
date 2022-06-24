@@ -2,6 +2,10 @@ import React from "react";
 import Header from "../components/Header";
 import '../styles/Projects.css'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import coverImage from '../images/covers/animelon.png'
+>>>>>>> parent of ba245c7 (Updates)
 =======
 import coverImage from '../images/covers/animelon.png'
 >>>>>>> parent of ba245c7 (Updates)
