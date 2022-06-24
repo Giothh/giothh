@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import '../styles/components/Header.css';
-import SetVariables from '../services/NightMode'
 import { Sunglasses } from 'phosphor-react';
 import { useState } from 'react';
 import { useCookies } from 'react-cookie';
