@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
   "short_name": "Gioth",
   "name": "Gioth Portifolio",
-=======
-  "short_name": "React App",
-  "name": "Create React App Sample",
->>>>>>> parent of ba245c7c (Updates)
   "icons": [
     {
       "src": "favicon.ico",
@@ -23,7 +18,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/about",
+  "scope": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
