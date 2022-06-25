@@ -7,11 +7,12 @@ import Projects from './pages/Projects';
 import UniqueProject from './pages/UniqueProject';
 
 function RoutesComponent() {
-	let nightModeExt2:any = SetVariables()
+	let nightModeExt2 = SetVariables()
+
 	return (
 		<BrowserRouter>
 			<Routes>
-				{/* <Route path='/' element={<Landing />}/> */}
+				{/* <Route path='/' element={<Landing iconsColor={nightModeExt2!.iconsColor}/>}/> */}
 				<Route path='/' element={<Landing iconsColor={nightModeExt2!.iconsColor}
 					fontColor={nightModeExt2!.fontColor}
 					mainPageBackgroundColor={nightModeExt2!.mainPageBackgroundColor}
