@@ -6,17 +6,17 @@ import Landing from './pages/Landing';
 import Projects from './pages/Projects';
 import UniqueProject from './pages/UniqueProject';
 
-interface nightModeInterface {
-	iconsColor?: string, 
-	fontColor?: string, 
-	mainPageBackgroundColor?: string,
-	buttonBackGroundColor?: string,
-	navBarBackGroundColor?: string,
-	userProfilePhotoBoxShadow?: string,
-	innerImageBlockProjectPage?: string,
-	defaultBoxShadow?: string
+// interface nightModeInterface {
+// 	iconsColor?: string, 
+// 	fontColor?: string, 
+// 	mainPageBackgroundColor?: string,
+// 	buttonBackGroundColor?: string,
+// 	navBarBackGroundColor?: string,
+// 	userProfilePhotoBoxShadow?: string,
+// 	innerImageBlockProjectPage?: string,
+// 	defaultBoxShadow?: string
 
-}
+// }
 
 function RoutesComponent() {
 	let nightModeExt2 = SetVariables()
