@@ -1,7 +1,7 @@
 import { useCookies } from "react-cookie";
 
 export default function SetVariables() {
-	const [cookies] = useCookies(['night-mode']);
+	const [cookies, setCookies] = useCookies(['night-mode']);
 
 	// var iconsColor: string,
 	// 	fontColor: string,
@@ -57,6 +57,7 @@ export default function SetVariables() {
 		return newNightMode 
 
 	} else {
+		setCookies('night-mode', false, { path:'/' })
 		return console.log("something went wrong here")	
 	}
 
