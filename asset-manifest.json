@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/giothh/static/css/main.f87547d8.css",
-    "main.js": "/giothh/static/js/main.78fdf50f.js",
+    "main.js": "/giothh/static/js/main.dabf3324.js",
     "static/media/animelon2.png": "/giothh/static/media/animelon2.f8c03e0dfdb084383776.png",
     "static/media/animelon.png": "/giothh/static/media/animelon.068051d057b1519ed938.png",
     "static/media/sonia.png": "/giothh/static/media/sonia.8185edf81494cc13e3fe.png",
     "index.html": "/giothh/index.html",
     "main.f87547d8.css.map": "/giothh/static/css/main.f87547d8.css.map",
-    "main.78fdf50f.js.map": "/giothh/static/js/main.78fdf50f.js.map"
+    "main.dabf3324.js.map": "/giothh/static/js/main.dabf3324.js.map"
   },
   "entrypoints": [
     "static/css/main.f87547d8.css",
-    "static/js/main.78fdf50f.js"
+    "static/js/main.dabf3324.js"
   ]
 }
