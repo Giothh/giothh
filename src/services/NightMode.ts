@@ -58,7 +58,27 @@ export default function SetVariables() {
 
 	} else {
 		setCookies('night-mode', false, { path:'/' })
-		return console.log("something went wrong here")	
+
+		var userProfilePhotoBoxShadow = "0px 0px 35px 1px rgba(29, 30, 31, 0.87)"
+		var mainPageBackgroundColor = "#D1D1D1"
+		var buttonBackGroundColor = "#DFDFDF"
+		var navBarBackGroundColor = "#EDEDED"
+		var iconsColor = "#000000"
+		var fontColor = "#000000"
+		var innerImageBlockProjectPage = "#AFAFAF"
+		var defaultBoxShadow = "4px 4px 3px 1px rgba(29, 30, 31, 0.25)"
+		
+		var newNightMode = {
+			iconsColor,
+			fontColor,
+			mainPageBackgroundColor,
+			buttonBackGroundColor,
+			navBarBackGroundColor,
+			userProfilePhotoBoxShadow,
+			innerImageBlockProjectPage,
+			defaultBoxShadow
+		}
+		return newNightMode 
 	}
 
 }
