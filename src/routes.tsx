@@ -22,7 +22,7 @@ function RoutesComponent() {
 	let nightModeExt2 = SetVariables()
 
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Routes>
 				{/* <Route path='/' element={<Landing iconsColor={nightModeExt2!.iconsColor}/>}/> */}
 				<Route path='/' element={<Landing iconsColor={nightModeExt2!.iconsColor}
@@ -62,7 +62,7 @@ function RoutesComponent() {
 						defaultBoxShadow={nightModeExt2!.defaultBoxShadow}/>}
 				/>
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	)
 }
 
