@@ -1,6 +1,7 @@
 import Header from '../components/Header'
 import '../styles/Landing.css'
 import { FigmaLogo, GithubLogo, LinkedinLogo } from 'phosphor-react'
+import { SiFreelancer } from 'react-icons/si'
 // import { setVariables } from '../services/NightMode'
 
 
@@ -29,9 +30,9 @@ function Landing(props: Props){
             <LinkedinLogo size={32} color={props.iconsColor} id="landing_page-main-div_left-buttons-icons"/>
             <p id="landing_page-main-div_left-buttons-p" style={{color: props.fontColor}}>/ThammerGiovanni</p>
           </a>
-          <a target="_blank"href={'/'} className='landing_page-main-div_left-buttons' rel="noreferrer" style={{backgroundColor: props.buttonBackGroundColor, boxShadow: props.defaultBoxShadow}}>
-            <FigmaLogo size={32} color={props.iconsColor} id="landing_page-main-div_left-buttons-icons"/>
-            <p id="landing_page-main-div_left-buttons-p" style={{color: props.fontColor}}>/Gioth</p>
+          <a target="_blank"href={'https://www.freelancer.com/u/ThammerGiovanni'} className='landing_page-main-div_left-buttons' rel="noreferrer" style={{backgroundColor: props.buttonBackGroundColor, boxShadow: props.defaultBoxShadow}}>
+            <SiFreelancer size={32} color={props.iconsColor} id="landing_page-main-div_left-buttons-icons"/>
+            <p id="landing_page-main-div_left-buttons-p" style={{color: props.fontColor}}>/ThammerGiovanni</p>
           </a>
         </div>
         <div className='landing_page-main-div_right'>
