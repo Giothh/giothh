@@ -1,0 +1,8 @@
+build and deploy to github pages
+
+yarn build
+yarn deploy
+git add *
+git commit -m ""
+git push origin main
+
